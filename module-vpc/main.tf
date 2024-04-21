@@ -13,5 +13,7 @@ provider "aws" {
 }
 
 module "mohan" {
+    source = "../terraform-vpc"
+    
   
 }
